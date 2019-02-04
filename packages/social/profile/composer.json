@@ -1,0 +1,13 @@
+{
+    "name": "Social/Profile",
+    "description": "Profiles of Social network",
+    "type": "project",
+    "license": "Ehsan Azad - RAD System",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "social\\profile\\": ""
+        }
+    }
+}
+

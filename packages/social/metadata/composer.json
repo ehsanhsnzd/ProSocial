@@ -1,0 +1,20 @@
+{
+  "name": "Social/MetaData",
+  "description": "Social MetaData package",
+  "type": "project",
+  "authors": [
+    {
+      "name": "ehsan hsnzd",
+      "email": "ehsan.hsnzd@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "social\\metadata\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+
+  }
+}

@@ -1,0 +1,2 @@
+config database strict => false
+company admins middleware

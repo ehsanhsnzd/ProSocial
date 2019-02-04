@@ -1,0 +1,20 @@
+{
+  "name": "Social/Album",
+  "description": "Social Album package",
+  "type": "project",
+  "authors": [
+    {
+      "name": "kousha ghodsizad",
+      "email": "kousha.ghodsizad@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "social\\album\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+
+  }
+}

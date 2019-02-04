@@ -1,0 +1,60 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+// Variables
+//@import "variables";
+////Bulma
+@import "~bulma-rtl/css/bulma-rtl.css";
+// Bootstrap
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//NProgress
+@import "~nprogress/nprogress.css";
+
+.message-box {
+  align-items: center;
+  display: none;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 40;
+  left: 50%;
+  top: 0;
+  width: 600px;
+  margin-left: -300px; /* Negative half of width. */
+}
+
+.message-box.is-active {
+  display: flex;
+}
+
+@-webkit-keyframes spin2 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
